@@ -23,3 +23,9 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # dockerizing-vuejs
+
+## execution 
+## Build
+docker-compose -f docker-compose-prod.yml up -d --build
+## run 
+docker-compose up
